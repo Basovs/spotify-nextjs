@@ -1,13 +1,16 @@
 import Head from "next/head"
+import Sidebar from "../components/Sidebar"
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
         <title>JBB - Spotify</title>
       </Head>
 
-      <h1>Yo</h1>
+      <main className="bg-black h-screen">
+        <Sidebar />
+      </main>
     </div>
   )
 }
