@@ -61,8 +61,8 @@ const Center = () => {
         />
 
         <div>
-          <p>PLAYLIST</p>
-          <h1 className="text-4xl md:text-6xl xl:text-9xl font-bold">
+          <p className="text-xs font-semibold">PLAYLIST</p>
+          <h1 className="text-3xl md:text-4xl xl:text-6xl font-bold">
             {playlist?.name}
           </h1>
         </div>

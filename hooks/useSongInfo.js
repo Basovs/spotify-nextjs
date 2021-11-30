@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { useRecoilState } from "recoil"
-import { currentTrackIDState } from "../atoms/songatom"
+import { currentTrackIDState } from "../atoms/songAtom"
 import useSpotify from "./useSpotify"
 
 const useSongInfo = () => {

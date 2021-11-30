@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react"
 import { useSession } from "next-auth/react"
 import { useRecoilState } from "recoil"
-import { currentTrackIDState, isPlayingState } from "../atoms/songatom"
+import { currentTrackIDState, isPlayingState } from "../atoms/songAtom"
 import useSpotify from "../hooks/useSpotify"
 import useSongInfo from "../hooks/useSongInfo"
 import {
